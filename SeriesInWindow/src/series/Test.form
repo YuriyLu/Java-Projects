@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="series.Test">
+  <grid id="27dc6" binding="Pannel" layout-manager="GridLayoutManager" row-count="5" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="12" width="725" height="569"/>
+    </constraints>
+    <properties>
+      <background color="-6050385"/>
+      <enabled value="true"/>
+      <foreground color="-16777216"/>
+      <preferredSize width="700" height="600"/>
+    </properties>
+    <border type="bevel-lowered" title="Series">
+      <font/>
+      <title-color color="-16777216"/>
+    </border>
+    <children>
+      <grid id="7aabf" binding="inputField" layout-manager="GridLayoutManager" row-count="7" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="10" left="10" bottom="10" right="10"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="186" height="387"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6050385"/>
+          <enabled value="true"/>
+          <foreground color="-16777216"/>
+        </properties>
+        <border type="bevel-lowered" title="Input field">
+          <font/>
+          <title-color color="-16777216"/>
+        </border>
+        <children>
+          <component id="ed2af" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="4" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="81" height="16"/>
+              </grid>
+            </constraints>
+            <properties>
+              <foreground color="-16777216"/>
+              <text value="First element of progression:"/>
+            </properties>
+          </component>
+          <component id="abe62" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="81" height="16"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <foreground color="-16777216"/>
+              <text value="Coefficient:"/>
+            </properties>
+          </component>
+          <component id="31cc3" class="javax.swing.JTextField" binding="Difference">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="81" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-5263441"/>
+            </properties>
+          </component>
+          <component id="eb0d" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="81" height="16"/>
+              </grid>
+            </constraints>
+            <properties>
+              <foreground color="-16777216"/>
+              <text value="Order of progression:"/>
+            </properties>
+          </component>
+          <component id="8cd50" class="javax.swing.JTextField" binding="Order">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="81" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-5263441"/>
+            </properties>
+          </component>
+          <component id="61328" class="javax.swing.JButton" binding="insertDataButton" default-binding="true">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="103" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-4076595"/>
+              <foreground color="-16777216"/>
+              <text value="Insert Data"/>
+            </properties>
+          </component>
+          <component id="d6459" class="javax.swing.JTextField" binding="FirstElement">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="81" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-5263441"/>
+              <foreground color="-16777216"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="23b71" binding="radioButtonField" layout-manager="GridLayoutManager" row-count="7" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="167" height="387"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6050385"/>
+          <enabled value="true"/>
+          <foreground color="-16777216"/>
+        </properties>
+        <border type="bevel-lowered" title="Choose field">
+          <title-color color="-16777216"/>
+        </border>
+        <children>
+          <component id="2652f" class="javax.swing.JRadioButton" binding="linearProgressionRadioButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-6050385"/>
+              <selected value="true"/>
+              <text value="Linear progression"/>
+            </properties>
+          </component>
+          <vspacer id="74a1e">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="23fa6" class="javax.swing.JRadioButton" binding="exponentialProgressionRadioButton" default-binding="true">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-6050385"/>
+              <enabled value="true"/>
+              <text value="Exponential progression"/>
+            </properties>
+          </component>
+          <component id="6411b" class="javax.swing.JTextField" binding="filePath">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-5263441"/>
+              <enabled value="false"/>
+              <text value="series.txt"/>
+            </properties>
+          </component>
+          <component id="8359" class="javax.swing.JLabel" binding="textFilePath">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <enabled value="false"/>
+              <foreground color="-16777216"/>
+              <text value="File path:"/>
+            </properties>
+          </component>
+          <component id="60fca" class="javax.swing.JButton" binding="writeInFileButton" default-binding="true">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-4076595"/>
+              <contentAreaFilled value="true"/>
+              <enabled value="false"/>
+              <foreground color="-16777216"/>
+              <text value="Write in file"/>
+            </properties>
+          </component>
+          <component id="a699b" class="javax.swing.JButton" binding="recreateProgressionButton" default-binding="true">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-4076595"/>
+              <enabled value="false"/>
+              <foreground color="-16777216"/>
+              <text value="Recreate progression"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="d1964" binding="outputField_1" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="true">
+            <preferred-size width="166" height="387"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6050385"/>
+          <enabled value="false"/>
+        </properties>
+        <border type="bevel-lowered" title="Out of sum">
+          <title-color color="-16777216"/>
+        </border>
+        <children>
+          <component id="20e77" class="javax.swing.JLabel" binding="textTheSum">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <enabled value="false"/>
+              <foreground color="-16777216"/>
+              <text value="The sum of progression:"/>
+            </properties>
+          </component>
+          <component id="46db3" class="javax.swing.JButton" binding="showButton" default-binding="true">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-4076595"/>
+              <enabled value="false"/>
+              <text value="Show"/>
+            </properties>
+          </component>
+          <component id="299a7" class="javax.swing.JTextField" binding="textField4" default-binding="true">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-5263441"/>
+              <editable value="false"/>
+            </properties>
+          </component>
+          <grid id="cb526" binding="info1" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-6050385"/>
+              <enabled value="false"/>
+              <foreground color="-16777216"/>
+            </properties>
+            <border type="bevel-lowered" title="Info">
+              <font/>
+              <title-color color="-16777216"/>
+            </border>
+            <children>
+              <component id="b12a4" class="javax.swing.JCheckBox" binding="progressionCreatedCheckBox" default-binding="true">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-6050385"/>
+                  <borderPainted value="false"/>
+                  <contentAreaFilled value="true"/>
+                  <enabled value="false"/>
+                  <focusable value="true"/>
+                  <font name="Consolas" style="1"/>
+                  <foreground color="-16777216"/>
+                  <hideActionText value="false"/>
+                  <opaque value="true"/>
+                  <requestFocusEnabled value="false"/>
+                  <selected value="false"/>
+                  <text value="Progression created"/>
+                  <visible value="true"/>
+                </properties>
+              </component>
+              <hspacer id="4afc5">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <component id="d7e25" class="javax.swing.JCheckBox" binding="fileSavedCheckBox" default-binding="true">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-6050385"/>
+                  <enabled value="false"/>
+                  <focusable value="true"/>
+                  <foreground color="-16777216"/>
+                  <opaque value="true"/>
+                  <text value="File saved"/>
+                </properties>
+              </component>
+              <component id="941dc" class="javax.swing.JTextField" binding="infoField">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-5263441"/>
+                  <editable value="false"/>
+                  <foreground color="-16777216"/>
+                </properties>
+              </component>
+              <vspacer id="8bc8f">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="8f640" binding="outputField_2" layout-manager="GridLayoutManager" row-count="4" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6050385"/>
+          <enabled value="false"/>
+          <foreground color="-16777216"/>
+        </properties>
+        <border type="bevel-lowered" title="Out of progression">
+          <font/>
+          <title-color color="-16777216"/>
+        </border>
+        <children>
+          <component id="a2e1b" class="javax.swing.JLabel" binding="textFirst">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="175" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <enabled value="false"/>
+              <foreground color="-16777216"/>
+              <text value="First n elements of progression:"/>
+            </properties>
+          </component>
+          <component id="d423e" class="javax.swing.JButton" binding="showButton1" default-binding="true">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="78" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-4076595"/>
+              <enabled value="false"/>
+              <foreground color="-16777216"/>
+              <hideActionText value="true"/>
+              <text value="Show"/>
+            </properties>
+          </component>
+          <component id="91882" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-5263441"/>
+              <editable value="false"/>
+              <foreground color="-16777216"/>
+              <selectionEnd value="0"/>
+            </properties>
+          </component>
+          <hspacer id="8ce07">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="7" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="50" height="20"/>
+              </grid>
+            </constraints>
+          </hspacer>
+          <component id="ff5a5" class="javax.swing.JTextField" binding="setNNumber">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="7" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-5263441"/>
+              <columns value="0"/>
+              <enabled value="false"/>
+            </properties>
+          </component>
+          <component id="1458b" class="javax.swing.JLabel" binding="textEnterN">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="2" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <enabled value="false"/>
+              <foreground color="-16777216"/>
+              <text value="Enter n, amount of elements you want to see:"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="7c48" class="javax.swing.JButton" binding="clearAllButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4076595"/>
+          <foreground color="-16777216"/>
+          <text value="Clear all"/>
+        </properties>
+      </component>
+      <component id="ceb0b" class="javax.swing.JButton" binding="exitButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4076595"/>
+          <foreground color="-16777216"/>
+          <text value="Exit"/>
+        </properties>
+      </component>
+      <component id="cae8c" class="javax.swing.JButton" binding="buttonAbout">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4076595"/>
+          <foreground color="-16777216"/>
+          <text value="About the program"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

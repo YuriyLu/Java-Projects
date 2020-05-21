@@ -1,0 +1,31 @@
+<expanders>
+    <expander id="123456">
+        <type>carpal</type>
+        <material>aluminium</material>
+        <power>150</power>
+    </expander>
+
+    <expander id="123457">
+        <type>carpal</type>
+        <material>rubber</material>
+        <power>100</power>
+    </expander>
+
+    <expander id="123458">
+        <type>breast</type>
+        <material>rubber</material>
+        <power>300</power>
+    </expander>
+
+    <expander id="123459">
+        <type>breast</type>
+        <material>steel</material>
+        <power>600</power>
+    </expander>
+
+    <expander id="123460">
+        <type>butterfly</type>
+        <material>aluminium</material>
+        <power>200</power>
+    </expander>
+</expanders>
