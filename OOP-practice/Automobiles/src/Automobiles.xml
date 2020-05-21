@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<automobiles>
+    <bodyCar brand="AUDI">
+        <carcase color="BLACK">
+            <size>MEDIUM</size>
+            <cost>10000</cost>
+        </carcase>
+        <engine>
+            <capacity>200</capacity>
+            <power>120</power>
+            <cost>10000</cost>
+            <fuelConsumtion>7.4</fuelConsumtion>
+        </engine>
+        <wheel radius="16">
+            <cost>700</cost>
+        </wheel>
+        <wheelAmount>4</wheelAmount>
+        <maxSpeed>160</maxSpeed>
+        <carBody>BUGGY</carBody>
+    </bodyCar>
+
+    <travelCar brand="NISSAN">
+        <carcase color="RED">
+            <size>BIG</size>
+            <cost>12000</cost>
+        </carcase>
+        <engine>
+            <capacity>220</capacity>
+            <power>150</power>
+            <cost>13000</cost>
+            <fuelConsumtion>8.3</fuelConsumtion>
+        </engine>
+        <wheel radius="18">
+            <cost>1200</cost>
+        </wheel>
+        <wheelAmount>6</wheelAmount>
+        <maxSpeed>230</maxSpeed>
+        <roofRack>FIXED_POINT</roofRack>
+    </travelCar>
+
+    <sportCar brand="PORSCHE">
+        <carcase color="RED">
+            <size>MEDIUM</size>
+            <cost>12000</cost>
+        </carcase>
+        <engine>
+            <capacity>400</capacity>
+            <power>180</power>
+            <cost>14000</cost>
+            <fuelConsumtion>9.4</fuelConsumtion>
+        </engine>
+        <wheel radius="16">
+            <cost>1000</cost>
+        </wheel>
+        <wheelAmount>4</wheelAmount>
+        <maxSpeed>220</maxSpeed>
+        <nitro>SINGLE_NOZZLE</nitro>
+    </sportCar>
+
+    <cabriolet brand="KIA">
+        <carcase color="RED">
+            <size>SMALL</size>
+            <cost>8000</cost>
+        </carcase>
+        <engine>
+            <capacity>500</capacity>
+            <power>110</power>
+            <cost>9000</cost>
+            <fuelConsumtion>5.4</fuelConsumtion>
+        </engine>
+        <wheel radius="16">
+            <cost>600</cost>
+        </wheel>
+        <wheelAmount>4</wheelAmount>
+        <maxSpeed>130</maxSpeed>
+        <slidingRoof>RETRACTABLE_HARDTOP</slidingRoof>
+    </cabriolet>
+</automobiles>
